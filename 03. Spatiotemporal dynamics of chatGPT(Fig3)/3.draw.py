@@ -147,5 +147,7 @@ ax.view_init(elev=30, azim=-120)
 colorbar = plt.colorbar(surface, ax=ax, shrink=0.70, aspect=22, pad=0.01)
 colorbar.set_label('Average causal strength', fontsize=22, fontweight='bold',labelpad= 10)
 # 显示图表
-plt.savefig(r"./PCMCI_3D.svg")
+plt.savefig('PCMCI_3D.svg', dpi=300, bbox_inches='tight')
+plt.savefig('PCMCI_3D.tif', dpi=300, bbox_inches='tight')
+plt.savefig('PCMCI_3D.jpg', dpi=300, bbox_inches='tight')
 plt.show()
