@@ -1,0 +1,36 @@
+
+## Significant links at alpha = 0.01:
+
+    Variable ChatGPT has 2 link(s):
+        (ChatGPT -1): pval = 0.00000 | val =  0.423
+        (ChatGTP  0): pval = 0.00002 | val =  0.191
+
+    Variable ChatGBT has 5 link(s):
+        (Chat-GPT  0): pval = 0.00000 | val =  0.431
+        (Chat-GPT -1): pval = 0.00000 | val =  0.308
+        (ChatGBT -3): pval = 0.00026 | val =  0.202
+        (Chat-GPT -2): pval = 0.00801 | val = -0.165
+        (Chat GPT  0): pval = 0.00049 | val =  0.155
+
+    Variable ChatGTP has 2 link(s):
+        (ChatGPT  0): pval = 0.00002 | val =  0.191
+        (Chat GPT  0): pval = 0.00163 | val =  0.141
+
+    Variable ChadGPT has 2 link(s):
+        (Chat GPT -1): pval = 0.00000 | val =  0.299
+        (ChatGTP -1): pval = 0.00350 | val =  0.176
+
+    Variable Chad GPT has 1 link(s):
+        (ChatGBT -6): pval = 0.00000 | val =  0.311
+
+    Variable Chat GPT has 4 link(s):
+        (Chat-GPT  0): pval = 0.00000 | val =  0.354
+        (Chat-GPT -1): pval = 0.00005 | val =  0.219
+        (ChatGBT  0): pval = 0.00049 | val =  0.155
+        (ChatGTP  0): pval = 0.00163 | val =  0.141
+
+    Variable Chat-GPT has 4 link(s):
+        (Chat-GPT -1): pval = 0.00000 | val =  0.453
+        (ChatGBT  0): pval = 0.00000 | val =  0.431
+        (Chat GPT  0): pval = 0.00000 | val =  0.354
+        (Chat-GPT -2): pval = 0.00000 | val = -0.276
