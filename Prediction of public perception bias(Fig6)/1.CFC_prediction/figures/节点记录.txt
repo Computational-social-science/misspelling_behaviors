@@ -1,0 +1,15 @@
+photosynthesis:
+	贝叶斯自举:
+		index1:415 
+		index2:445
+	cfc：
+		time:422
+		time2:434
+
+restaurant:
+	贝叶斯自举:
+		index1:404
+		index2:442
+	cfc：
+		time:411
+		time2:506
