@@ -16,6 +16,7 @@ Here we present a comprehensive framework for analyzing the spatiotemporal evolu
 <img src="https://github.com/Computational-social-science/misspelling_behaviors/blob/master/Spatiotemporal%20dynamics%20of%20chatGPT(Fig3)/figures/PCMCI_3d.svg" width="550" />
 
 ### 4. a LLM vs an LLM
+<img src="https://github.com/Computational-social-science/misspelling_behaviors/blob/master/A%20LLM%20vs%20an%20LLM(Fig4)/figures/Figure%204-a%20LLM%20vs.%20an%20LLM.svg" width="650" />
 
 ### 5. Misspelling dynamics across categories
 <img src="https://github.com/Computational-social-science/misspelling_behaviors/blob/master/Misspelling%20dynamics%20across%20categories(Fig5)/figures/output_words_plot.svg" width="570" />
