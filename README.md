@@ -8,26 +8,26 @@ Here we present a comprehensive framework for analyzing the spatiotemporal evolu
 ## Framework Overview
 ### 1. Causal network reconstruction
   
-![Causal network](./Causal network reconstruction(Fig1)/figures/20240814.jpg) 
+![image](https://github.com/Computational-social-science/misspelling_behaviors/blob/master/Causal%20network%20reconstruction(Fig1)/figures/20240814.svg) 
 
 ### 2. NMR MR temporal analysis
    
-![SBS Model](./NMR MR temporal analysis(Fig2)/figures/SNR_ChatGPT.svg) 
+![image](https://github.com/Computational-social-science/misspelling_behaviors/blob/master/NMR%20MR%20temporal%20analysis(Fig2)/figures/SNR_ChatGPT.svg) 
 
 ### 3. Spatiotemporal dynamics of chatGPT
 
-![SBS Model](./Spatiotemporal dynamics of chatGPT(Fig3)/figures/PCMCI_3d.svg)
+![image](https://github.com/Computational-social-science/misspelling_behaviors/blob/master/Spatiotemporal%20dynamics%20of%20chatGPT(Fig3)/figures/PCMCI_3d.svg)
 
 ### 4. a LLM vs an LLM
 
 ### 5. Misspelling dynamics across categories
-![SBS Model](./Misspelling dynamics across categories(Fig5)/figures/output_words_plot.svg)
+![image](https://github.com/Computational-social-science/misspelling_behaviors/blob/master/Misspelling%20dynamics%20across%20categories(Fig5)/figures/output_words_plot.svg)
 
 ### 6. Prediction of public perception bias
    
-![SBS Model](./Prediction of public perception bias(Fig6)/figures/all terms_300dpi.svg)
+![image](https://github.com/Computational-social-science/misspelling_behaviors/blob/master/Prediction%20of%20public%20perception%20bias(Fig6)/figures/all%20terms_300dpi.svg)
 
 ### 7. Spelling behavior simulation and network(Fig7)
-![SBS Model](./Spelling behavior simulation and network(Fig7)/figures/Physarum.svg)
-![SBS Model](./Spelling behavior simulation and network(Fig7)/figures/sim_0120.gif) 
+![image](https://github.com/Computational-social-science/misspelling_behaviors/blob/master/Spelling%20behavior%20simulation%20and%20network(Fig7)/figures/Physarum.svg)
+![gif](https://github.com/Computational-social-science/misspelling_behaviors/blob/master/Spelling%20behavior%20simulation%20and%20network(Fig7)/figures/sim_0120.gif) 
 
