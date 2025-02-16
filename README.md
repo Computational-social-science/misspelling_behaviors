@@ -24,7 +24,7 @@ Here we present a comprehensive framework for analyzing the spatiotemporal evolu
 ### 6. Prediction of public perception bias
 <img src="https://github.com/Computational-social-science/misspelling_behaviors/blob/master/Prediction%20of%20public%20perception%20bias(Fig6)/figures/all%20terms_300dpi.svg" width="600" />
 
-### 7. Spelling behavior simulation and network(Fig7)
+### 7. Spelling behavior simulation and network
 <img src="https://github.com/Computational-social-science/misspelling_behaviors/blob/master/Spelling%20behavior%20simulation%20and%20network(Fig7)/figures/Physarum.svg" width="650" />
 <img src="https://github.com/Computational-social-science/misspelling_behaviors/blob/master/Spelling%20behavior%20simulation%20and%20network(Fig7)/figures/sim_0120.gif" width="400" />
 
