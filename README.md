@@ -1,8 +1,8 @@
 # Unfolding spatiotemporal patterns of collective misspelling behaviors
 
-Subtle yet persistent misspellings continue to disrupt information and knowledge societies, despite meticulous proofreading and collation efforts. The underlying mechanisms of human spelling failures remain poorly understood. 
+*Subtle yet persistent misspellings continue to disrupt information and knowledge societies, despite meticulous proofreading and collation efforts. The underlying mechanisms of human spelling failures remain poorly understood.*
 
-Here we present a comprehensive framework for analyzing the spatiotemporal evolution of correct and incorrect spellings, encompassing the full spectrum of scientific terms, brands, and common words from their inception. Our framework introduces novel metrics, a spelling behavioral simulation (SBS) model, and the Physarum algorithm to elucidate the spatiotemporal dynamics of collective spelling behaviors.
+*Here we present a comprehensive framework for analyzing the spatiotemporal evolution of correct and incorrect spellings, encompassing the full spectrum of scientific terms, brands, and common words from their inception. Our framework introduces novel metrics, a spelling behavioral simulation (SBS) model, and the Physarum algorithm to elucidate the spatiotemporal dynamics of collective spelling behaviors.*
 
 
 ## Framework Overview
