@@ -18,7 +18,7 @@ Here we present a comprehensive framework for analyzing the spatiotemporal evolu
 ### 4. a LLM vs an LLM
 
 ### 5. Misspelling dynamics across categories
-<img src="https://github.com/Computational-social-science/misspelling_behaviors/blob/master/Misspelling%20dynamics%20across%20categories(Fig5)/figures/output_words_plot.svg" width="600" />
+<img src="https://github.com/Computational-social-science/misspelling_behaviors/blob/master/Misspelling%20dynamics%20across%20categories(Fig5)/figures/output_words_plot.svg" width="570" />
 
 ### 6. Prediction of public perception bias
 <img src="https://github.com/Computational-social-science/misspelling_behaviors/blob/master/Prediction%20of%20public%20perception%20bias(Fig6)/figures/all%20terms_300dpi.svg" width="600" />
