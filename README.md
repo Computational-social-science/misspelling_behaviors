@@ -28,4 +28,5 @@
 <img src="https://github.com/Computational-social-science/misspelling_behaviors/blob/main/Spelling%20behavior%20simulation%20and%20network(Fig7)/figures/Physarum.svg" width="650" />
 <img src="https://github.com/Computational-social-science/misspelling_behaviors/blob/main/Spelling%20behavior%20simulation%20and%20network(Fig7)/figures/sim_0120.gif" width="400" />
 
-
+## Citing this work
+The relevant paper is currently under review, during which time this repository is private. Once it goes public, a bibtex reference will be provided here.
