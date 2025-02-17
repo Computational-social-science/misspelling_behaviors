@@ -8,7 +8,7 @@ from datetime import datetime
 
 plt.rcParams['font.sans-serif']=['SimHei']
 plt.rcParams['axes.unicode_minus']=False
-plt.rcParams['font.size'] = 13
+plt.rcParams['font.size'] = 16
 plt.rcParams['font.family'] = 'Times New Roman'
 font = {'family': 'serif',
         'weight': "medium"
@@ -67,8 +67,8 @@ ax1 = fig.add_subplot(131)
 num_data_points = len(data)
 color_map = np.linspace(0, 1, num_data_points)
 scatter = ax1.scatter(data['NMR'], data['MR'], c=color_map, cmap='viridis', alpha=0.8,marker='x')
-ax1.set_xlabel('NMR (Nomenclature-to-Misspelling Ratio)', size=15)
-ax1.set_ylabel('MR (Misspelling Ratio)', size=15)
+ax1.set_xlabel('NMR (Nomenclature-to-Misspelling Ratio)', size=21)
+ax1.set_ylabel('MR (Misspelling Ratio)', size=21)
 xlabel = ax1.get_xaxis().get_label()
 xlabel.set_weight('bold')
 ylabel = ax1.get_yaxis().get_label()
@@ -84,11 +84,11 @@ colorbar_labels = [data_.iloc[i,0].strftime("%Y-%m-%d") for i in np.linspace(0, 
 # 为colorbar创建一个新的Axes实例，位置紧邻主图
 cbar_ax = fig.add_axes([0.34, 0.1, 0.01, 0.8])  # 参数为[left, bottom, width, height]
 # Adjusting colorbar
-cbar = fig.colorbar(scatter, label='Date', cax=cbar_ax)
+cbar = fig.colorbar(scatter, label=' ', cax=cbar_ax)
 cbar.set_ticks(colorbar_ticks)
 cbar.set_ticklabels(colorbar_labels)
 # 设置字体属性
-font_properties = fm.FontProperties(size=8)
+font_properties = fm.FontProperties(size=13)
 # 应用字体属性到colorbar的刻度标签
 for label in cbar.ax.get_yticklabels():
     label.set_fontproperties(font_properties)
@@ -148,8 +148,8 @@ print("d(t)_max:",d_t_max)
 ax2.scatter(tipping_point, data.loc[data.index == tipping_point]['Density'], color='orange', label='Tipping point')
 ax2.scatter(max_density_index, data.loc[data.index == max_density_index]['Density'], color='red', label='Initial steady state')
 
-ax2.set_xlabel('Date', size=15)
-ax2.set_ylabel('Kernel Density', size=15)
+ax2.set_xlabel('Date', size=21)
+ax2.set_ylabel('Kernel Density', size=20)
 xlabel = ax2.get_xaxis().get_label()
 xlabel.set_weight('bold')
 ylabel = ax2.get_yaxis().get_label()
@@ -161,8 +161,8 @@ datetime_string2=str(data_time.loc[data_time.index == 0].iloc[0, 0])
 
 ax2.legend(
     # frameon=False, #去掉图例边框
-    fontsize=12,
-    loc = 'upper right',
+    fontsize=14,
+    loc = 'lower right',
     #labelspacing=0.3,
     labelspacing=0.3,
     handletextpad=0.01,
@@ -192,7 +192,7 @@ ax2.set_xlim(0 - (lag+20),data.iloc[-1,0]+120)
 xticks = np.linspace(0, len(data.iloc[:,0]), 4, dtype=int)
 xticks_labels = [data_.iloc[i,0].strftime("%Y-%m-%d") for i in xticks]
 ax2.set_xticks(xticks)
-ax2.set_xticklabels(xticks_labels, fontsize=10,zorder=0) #y轴字体设置
+ax2.set_xticklabels(xticks_labels, fontsize=13,zorder=0) #y轴字体设置
 
 # plt.title('Kernel Density for Each Data Point with Highest Density Point Marked')
 # plt.legend()
@@ -248,7 +248,7 @@ for a, d in specific_values:
 
 ax3.legend(
     # frameon=False
-    fontsize=11,
+    fontsize=14,
     loc='upper right',
     bbox_to_anchor=(1.1, 0.83, 0.01, 0.1),#(横坐标位置，纵坐标位置，宽度，高度)
     labelspacing=0.3,
@@ -274,9 +274,9 @@ ax1.set_position([0.1, 0.1, 0.23, 0.8])  # left, bottom, width, height
 ax2.set_position([0.425, 0.1, 0.23, 0.8])
 ax3.set_position([0.56, 0.06, 0.45, 0.9]) # 留出更大的间距
 
-ax1.text(-0.15, 1.08, 'A', transform=ax1.transAxes, fontsize=23, fontweight='bold', va='top')
-ax2.text(-0.13, 1.08, 'B', transform=ax2.transAxes, fontsize=23, fontweight='bold', va='top')
-ax3.text2D(0.05, 1, "C", transform=ax3.transAxes, fontsize=23, fontweight='bold', va='top')
+ax1.text(-0.15, 1.08, 'A', transform=ax1.transAxes, fontsize=26, fontweight='bold', va='top')
+ax2.text(-0.13, 1.08, 'B', transform=ax2.transAxes, fontsize=26, fontweight='bold', va='top')
+ax3.text2D(0.05, 1, "C", transform=ax3.transAxes, fontsize=26, fontweight='bold', va='top')
 
 
 ax3.tick_params(axis='x', pad=2)
@@ -288,5 +288,7 @@ ax1.text(data.loc[data.index == max_density_index, 'NMR'].iloc[0] +0.35, ymin1, 
 
 
 plt.savefig(r"./chatgpt.svg")
+plt.savefig(r"./chatgpt.tif")
+plt.savefig(r"./chatgpt.jpg")
 # Display the plot
 plt.show()
