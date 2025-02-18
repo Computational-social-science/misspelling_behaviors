@@ -4,7 +4,6 @@
 
 *Here we present a comprehensive framework for analyzing the spatiotemporal evolution of correct and incorrect spellings, encompassing the full spectrum of scientific terms, brands, and common words from their inception. Our framework introduces novel metrics, a spelling behavioral simulation (SBS) model, and the Physarum algorithm to elucidate the spatiotemporal dynamics of collective spelling behaviors.*
 <img src="https://github.com/Computational-social-science/misspelling_behaviors/blob/main/Spelling%20behavior%20simulation%20and%20network(Fig7)/figures/sim_0120.gif" width="400" />
-
 ## Framework Overview
 ### 1. Causal network reconstruction
 <img src="https://github.com/Computational-social-science/misspelling_behaviors/blob/main/Causal%20network%20reconstruction(Fig1)/figures/20240814.svg" width="600" />
@@ -26,7 +25,6 @@
 
 ### 7. Spelling behavior simulation and network
 <img src="https://github.com/Computational-social-science/misspelling_behaviors/blob/main/Spelling%20behavior%20simulation%20and%20network(Fig7)/figures/Physarum.svg" width="650" />
-<img src="https://github.com/Computational-social-science/misspelling_behaviors/blob/main/Spelling%20behavior%20simulation%20and%20network(Fig7)/figures/sim_0120.gif" width="400" />
 
 ## Citing this work
 The relevant paper is currently under review, during which time this repository is private. Once it goes public, a bibtex reference will be provided here.
