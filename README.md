@@ -3,7 +3,11 @@
 *Subtle yet persistent misspellings continue to disrupt information and knowledge societies, despite meticulous proofreading and collation efforts. The underlying mechanisms of human spelling failures remain poorly understood.*
 
 *Here we present a comprehensive framework for analyzing the spatiotemporal evolution of correct and incorrect spellings, encompassing the full spectrum of scientific terms, brands, and common words from their inception. Our framework introduces novel metrics, a spelling behavioral simulation (SBS) model, and the Physarum algorithm to elucidate the spatiotemporal dynamics of collective spelling behaviors.*
+
+- [The release of DeepSeek-R1 has triggered collective misspelling behaviors related to "DeepSeek".](https://bkk513.github.io/)
+- Spelling behavior simulation
 <img src="https://github.com/Computational-social-science/misspelling_behaviors/blob/main/Spelling%20behavior%20simulation%20and%20network(Fig7)/figures/sim_0120.gif" width="400" />
+
 ## Framework Overview
 ### 1. Causal network reconstruction
 <img src="https://github.com/Computational-social-science/misspelling_behaviors/blob/main/Causal%20network%20reconstruction(Fig1)/figures/20240814.svg" width="600" />
